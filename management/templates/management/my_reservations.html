@@ -1,0 +1,11 @@
+<h1>Moje Rezerwacje</h1>
+<ul>
+    {% for reservation in reservations %}
+    <li>
+        Film: {{ reservation.showtime.movie.title }} |
+        Seans: {{ reservation.showtime.start_time }} |
+        Zarezerwowane: {{ reservation.reserved_at }}
+    </li>
+    {% endfor %}
+</ul>
+<a href="{% url 'home' %}">Wróć</a>

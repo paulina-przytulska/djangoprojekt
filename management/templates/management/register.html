@@ -1,0 +1,17 @@
+{% extends 'management/base.html' %}
+
+{% block title %}Rejestracja{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Rejestracja</h1>
+    <form method="post" class="mb-4">
+        {% csrf_token %}
+        <div class="form-group">
+            {{ form.as_p }}
+        </div>
+        <button type="submit" class="btn btn-primary">Zarejestruj się</button>
+    </form>
+    <a href="{% url 'login' %}">Masz już konto? Zaloguj się tutaj</a>
+</div>
+{% endblock %}

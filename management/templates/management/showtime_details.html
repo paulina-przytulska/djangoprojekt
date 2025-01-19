@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szczegóły Seansu</title>
+</head>
+<body>
+    <h1>Szczegóły Seansu</h1>
+
+    <!-- Informacje o seansie -->
+    <p><strong>Film:</strong> {{ showtime.movie.title }}</p>
+    <p><strong>Data i godzina:</strong> {{ showtime.start_time|date:"Y-m-d H:i" }}</p>
+    <p><strong>Wolne miejsca:</strong> {{ showtime.available_seats }}</p>
+
+    <!-- Formularz rezerwacji -->
+    <form method="post" action="">
+        {% csrf_token %}
+        <button type="submit">Zarezerwuj miejsce</button>
+    </form>
+
+    <!-- Powrót do strony głównej -->
+    <a href="{% url 'home' %}">Wróć do listy filmów</a>
+</body>
+</html>
