@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d75f2957-0102-472f-b3d8-b7ac0944a609" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_lesson/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_lesson/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_lesson/runtime.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/populate_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/templates/management/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/templates/management/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/templates/management/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/templates/management/my_reservations.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/templates/management/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/templates/management/showtime_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/management/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_lesson/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/django_lesson/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_lesson/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/django_lesson/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_lesson/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_lesson/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
